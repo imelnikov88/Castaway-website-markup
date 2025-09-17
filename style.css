@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+}
+
+html {
+    background-color: #191919;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+    max-width: 1300px;
+}
+
+.header {
+    padding: 44px 0;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+    font-size: 17px;
+}
+
+
+.main {
+    padding: 40px 0;
+}
+
+.main-img {
+    max-width: 650px;
+    border-radius: 12px;
+}
+
+
+.main-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.main-title {
+    max-width: 526px;
+    margin-bottom: 90px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+
+.next-style {
+    font-size: 75px;
+    letter-spacing: 0.04em;
+}
+
+.level-style {
+    font-weight: 700;
+    font-size: 80px;
+    letter-spacing: 0.04em;
+}
+
+.streaming {
+    padding: 0 22px;
+}
+
+.main-description {
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+
+
+.episodes-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+h2 {
+font-weight: 400;
+font-size: 64px;
+line-height: 1.2375;
+letter-spacing: 0.05em;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.card {
+    display: flex;
+    background-color: #000;
+    border-radius: 32px;
+    padding: 40px;
+    gap: 53px;
+}
+
+.button {
+    border-radius: 6px;
+    padding: 12px 20px 12px 20px;
+    height: 51px;
+    background-color: #118da8;
+font-weight: 400;
+font-size: 17px;
+border: none;
+}
+
+.card-img {
+    max-width: 389px;
+}
+
+.card-label {
+    display: inline-block;
+background-color: #191919;
+border-radius: 6px;
+padding: 3px 16px 3px 16px;
+margin-bottom: 48px;
+}
+
+.card-label_info {
+font-weight: 400;
+font-size: 18px;
+}
+
+.card-episode {
+    font-weight: 400;
+font-size: 17px;
+    color: #118da8;
+    margin-bottom: 18px;
+}
+
+h3 {
+font-size: 64px;
+letter-spacing: 0.04em;
+font-weight: 400;
+max-width: 700px;
+margin-bottom: 28px;
+}
+
+.card-description {
+    font-weight: 400;
+font-size: 22px;
+line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 18px;
+}
+
+.button-card {
+        border-radius: 6px;
+    padding: 12px 20px 12px 20px;
+    background-color: #118da8;
+font-weight: 400;
+font-size: 17px;
+border: none;
+    width: 208px;
+height: 51px;
+}
