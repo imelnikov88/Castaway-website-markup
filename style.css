@@ -94,6 +94,10 @@ h1 {
 
 
 
+.latest-episodes {
+    margin-bottom: 160px;
+}
+
 .episodes-header {
     display: flex;
     justify-content: space-between;
@@ -102,10 +106,10 @@ h1 {
 }
 
 h2 {
-font-weight: 400;
-font-size: 64px;
-line-height: 1.2375;
-letter-spacing: 0.05em;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.2375;
+    letter-spacing: 0.05em;
 }
 
 .card-wrapper {
@@ -127,9 +131,9 @@ letter-spacing: 0.05em;
     padding: 12px 20px 12px 20px;
     height: 51px;
     background-color: #118da8;
-font-weight: 400;
-font-size: 17px;
-border: none;
+    font-weight: 400;
+    font-size: 17px;
+    border: none;
 }
 
 .card-img {
@@ -138,47 +142,90 @@ border: none;
 
 .card-label {
     display: inline-block;
-background-color: #191919;
-border-radius: 6px;
-padding: 3px 16px 3px 16px;
-margin-bottom: 48px;
+    background-color: #191919;
+    border-radius: 6px;
+    padding: 3px 16px 3px 16px;
+    margin-bottom: 48px;
 }
 
 .card-label_info {
-font-weight: 400;
-font-size: 18px;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .card-episode {
     font-weight: 400;
-font-size: 17px;
+    font-size: 17px;
     color: #118da8;
     margin-bottom: 18px;
 }
 
 h3 {
-font-size: 64px;
-letter-spacing: 0.04em;
-font-weight: 400;
-max-width: 700px;
-margin-bottom: 28px;
+    font-size: 64px;
+    letter-spacing: 0.04em;
+    font-weight: 400;
+    max-width: 700px;
+    margin-bottom: 28px;
 }
 
 .card-description {
     font-weight: 400;
-font-size: 22px;
-line-height: 1.5;
+    font-size: 22px;
+    line-height: 1.5;
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 18px;
 }
 
 .button-card {
-        border-radius: 6px;
+    border-radius: 6px;
     padding: 12px 20px 12px 20px;
     background-color: #118da8;
-font-weight: 400;
-font-size: 17px;
-border: none;
+    font-weight: 400;
+    font-size: 17px;
+    border: none;
     width: 208px;
-height: 51px;
+    height: 51px;
+}
+
+
+.host-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.host-arrow {
+    border-radius: 50%;
+    width: 112px;
+    height: 112px;
+    background: #118da8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.host-signature {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #118da8;
+    margin-bottom: 25px;
+}
+
+.host-title {
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 1.21846;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.host-description {
+    max-width: 556px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 33px;
 }
