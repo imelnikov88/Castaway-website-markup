@@ -95,7 +95,7 @@ h1 {
 
 
 .latest-episodes {
-    margin-bottom: 160px;
+    padding: 100px 0px 160px 0px;
 }
 
 .episodes-header {
@@ -183,10 +183,13 @@ h3 {
     font-weight: 400;
     font-size: 17px;
     border: none;
-    width: 208px;
     height: 51px;
 }
 
+
+.host {
+    padding: 100px 0px 100px 0px;
+}
 
 .host-wrapper {
     display: flex;
@@ -228,4 +231,49 @@ h3 {
     line-height: 1.5;
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 33px;
+}
+
+
+.subscribe {
+    padding: 100px 0px;
+}
+
+.subscribe-wrapper {
+    background-color: #000;
+    border-radius: 32px;
+    display: flex;
+    padding: 60px 60px 75px 60px;
+    justify-content: space-between;
+}
+
+.subscribe-signature {
+    font-weight: 400;
+font-size: 18px;
+color: #118da8;
+margin-bottom: 26px;
+}
+
+.subscribe-title {
+    font-weight: 400;
+font-size: 72px;
+letter-spacing: 0.04em;
+line-height: 1.1;
+color: #fff;
+max-width: 411px;;
+}
+
+.subscribe-fields {
+    max-width: 522px;
+}
+
+.subscribe-input {
+    background-color: #191919;
+    border-radius: 6px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+font-size: 24px;
+border: none;
+width: 100%;
+padding: 26px 19px 27px 19px;
+margin-bottom: 20px;
 }
